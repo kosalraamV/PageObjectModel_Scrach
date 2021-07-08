@@ -9,14 +9,62 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">HRM Test Suite</th></tr>
-<tr><td><a href="#t0"> Pending leave Request Test Case</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">23,526</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Verifying User Role testcase</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,542</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">46,068</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0"> Pending leave Request Test Case</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">188</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Verifying User Role testcase</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">36</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">224</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HRM Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> Pending leave Request Test Case &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testcases.Pending_leave_request_testcases</td><td><a href="#m0">verifypendingleaverequest</a></td><td rowspan="1">1625716804945</td><td rowspan="1">78</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Verifying User Role testcase &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Testcases.User_Role_testcase</td><td><a href="#m1">checkuserRole</a></td><td rowspan="1">1625716828437</td><td rowspan="1">3721</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">HRM Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4"> Pending leave Request Test Case &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Testcases.Pending_leave_request_testcases</td><td><a href="#m0">Browser_setup</a></td><td rowspan="1">1625721789200</td><td rowspan="1">86</td></tr><tr><th colspan="4"> Pending leave Request Test Case &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Testcases.Pending_leave_request_testcases</td><td><a href="#m1">teardown_BM</a></td><td rowspan="1">1625721789349</td><td rowspan="1">-1625721789349</td></tr><tr><th colspan="4"> Pending leave Request Test Case &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Testcases.Pending_leave_request_testcases</td><td><a href="#m2">verifypendingleaverequest</a></td><td rowspan="1">1625721789315</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Verifying User Role testcase &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">Testcases.User_Role_testcase</td><td><a href="#m3">Browser_setup</a></td><td rowspan="1">1625721789909</td><td rowspan="1">14</td></tr><tr><th colspan="4">Verifying User Role testcase &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">Testcases.User_Role_testcase</td><td><a href="#m4">teardown_BM</a></td><td rowspan="1">1625721789934</td><td rowspan="1">-1625721789934</td></tr><tr><th colspan="4">Verifying User Role testcase &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Testcases.User_Role_testcase</td><td><a href="#m5">checkuserRole</a></td><td rowspan="1">1625721789928</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2> Pending leave Request Test Case</h2><h3 id="m0">Testcases.Pending_leave_request_testcases#verifypendingleaverequest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Verifying User Role testcase</h2><h3 id="m1">Testcases.User_Role_testcase#checkuserRole</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2> Pending leave Request Test Case</h2><h3 id="m0">Testcases.Pending_leave_request_testcases#Browser_setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DELL\git\PageObjectModel_Scrachworkspace_realtime\Org_applicationHRM\Drivers\chromedriver_l.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at Testcases.Base_Class_Common_functions.Browser_setup(Base_Class_Common_functions.java:135)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Testcases.Pending_leave_request_testcases#teardown_BM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Testcases.Pending_leave_request_testcases#verifypendingleaverequest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DELL\git\PageObjectModel_Scrachworkspace_realtime\Org_applicationHRM\Drivers\chromedriver_l.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at Testcases.Base_Class_Common_functions.Browser_setup(Base_Class_Common_functions.java:135)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Verifying User Role testcase</h2><h3 id="m3">Testcases.User_Role_testcase#Browser_setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DELL\git\PageObjectModel_Scrachworkspace_realtime\Org_applicationHRM\Drivers\chromedriver_l.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at Testcases.Base_Class_Common_functions.Browser_setup(Base_Class_Common_functions.java:135)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Testcases.User_Role_testcase#teardown_BM</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Testcases.User_Role_testcase#checkuserRole</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalStateException: The driver executable does not exist: C:\Users\DELL\git\PageObjectModel_Scrachworkspace_realtime\Org_applicationHRM\Drivers\chromedriver_l.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:534)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:329)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at Testcases.Base_Class_Common_functions.Browser_setup(Base_Class_Common_functions.java:135)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

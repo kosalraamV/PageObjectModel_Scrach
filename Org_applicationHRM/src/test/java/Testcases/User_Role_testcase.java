@@ -1,5 +1,7 @@
 package Testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -54,12 +56,12 @@ public class User_Role_testcase extends Base_Class_Common_functions {
 		//testcase.log(Status.PASS, "User is Verifying the User_role-succesfully"); 
 		logger.info("Verifying the User_role");
 		String actualRole=User_Role_page_object.UserRole_dropdown_value.getText();
-		Assert.assertEquals(actualRole, "Admin");
+		AssertJUnit.assertEquals(actualRole, "Admin");
 		
 		//testcase.log(Status.PASS, "User is Verifying the User_status-succesfully"); 
 		logger.info("Verifying  the User_status");
 		String actualstatus=User_Role_page_object.UserRole_dropdown_status.getText();
-		Assert.assertEquals(actualstatus, "Enabled");
+		AssertJUnit.assertEquals(actualstatus, "Enabled");
 		
 		//testcase.log(Status.PASS, "User is Verifying the User_status-succesfully"); 
 		logger.info("Ending the User Role testcase");

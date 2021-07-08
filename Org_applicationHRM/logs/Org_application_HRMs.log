@@ -1,21 +1,4 @@
-2021-07-08 09:29:44,487 INFO  [main] Base_Class_Common_functions:116 - Orange HRM Test Begins
-2021-07-08 09:29:44,490 INFO  [main] Base_Class_Common_functions:118 - loading properties file
-2021-07-08 09:29:44,672 INFO  [TestNG-test= Pending leave Request Test Case-1] Base_Class_Common_functions:133 - lauching Chrome Browser succesfully
-2021-07-08 09:29:50,956 INFO  [TestNG-test= Pending leave Request Test Case-1] Base_Class_Common_functions:144 - Navigating to Application Url
-2021-07-08 09:29:57,596 INFO  [TestNG-test= Pending leave Request Test Case-1] Base_Class_Common_functions:148 - Maximing UI Application
-2021-07-08 09:29:57,605 INFO  [TestNG-test= Pending leave Request Test Case-1] Base_Class_Common_functions:54 - loging into applicationc succesfully
-2021-07-08 09:30:04,964 INFO  [TestNG-test= Pending leave Request Test Case-1] Pending_leave_request_testcases:32 - Getting the pending leave request details
-2021-07-08 09:30:04,965 INFO  [TestNG-test= Pending leave Request Test Case-1] Pending_leave_request_testcases:18 - verification the pending leave request details
-2021-07-08 09:30:05,022 INFO  [TestNG-test= Pending leave Request Test Case-1] Pending_leave_request_testcases:37 - Ending the pending leave request details testcase sucessfully
-2021-07-08 09:30:05,601 INFO  [TestNG-test= Pending leave Request Test Case-1] Base_Class_Common_functions:157 - Execution Done.closing Browser succesfully
-2021-07-08 09:30:10,606 INFO  [TestNG-test=Verifying User Role testcase-1] Base_Class_Common_functions:133 - lauching Chrome Browser succesfully
-2021-07-08 09:30:15,644 INFO  [TestNG-test=Verifying User Role testcase-1] Base_Class_Common_functions:144 - Navigating to Application Url
-2021-07-08 09:30:21,992 INFO  [TestNG-test=Verifying User Role testcase-1] Base_Class_Common_functions:148 - Maximing UI Application
-2021-07-08 09:30:21,998 INFO  [TestNG-test=Verifying User Role testcase-1] Base_Class_Common_functions:54 - loging into applicationc succesfully
-2021-07-08 09:30:28,446 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:19 - Navigating to user page
-2021-07-08 09:30:30,605 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:30 - Selecting the User_role
-2021-07-08 09:30:30,998 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:38 - Navigating to User_status
-2021-07-08 09:30:32,044 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:55 - Verifying the User_role
-2021-07-08 09:30:32,119 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:60 - Verifying  the User_status
-2021-07-08 09:30:32,158 INFO  [TestNG-test=Verifying User Role testcase-1] User_Role_testcase:65 - Ending the User Role testcase
-2021-07-08 09:30:32,317 INFO  [TestNG-test=Verifying User Role testcase-1] Base_Class_Common_functions:157 - Execution Done.closing Browser succesfully
+2021-07-08 10:53:09,038 INFO  [main] Base_Class_Common_functions:116 - Orange HRM Test Begins
+2021-07-08 10:53:09,041 INFO  [main] Base_Class_Common_functions:118 - loading properties file
+2021-07-08 10:53:09,200 INFO  [main] Base_Class_Common_functions:133 - lauching Chrome Browser succesfully
+2021-07-08 10:53:09,909 INFO  [main] Base_Class_Common_functions:133 - lauching Chrome Browser succesfully

@@ -1,5 +1,7 @@
 package Testcases;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -18,7 +20,7 @@ public class Pending_leave_request_testcases extends Base_Class_Common_functions
 		logger.info("verification the pending leave request details");
 		PageFactory.initElements(driver, Dashboard_page_object.class);
 		String actual_message=Dashboard_page_object.pendingLeaveEequest.getText();
-		Assert.assertEquals(actual_message, "No Records are Available");
+		AssertJUnit.assertEquals(actual_message, "No Records are Available");
 	}	
 	
 	

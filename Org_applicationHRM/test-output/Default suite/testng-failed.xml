@@ -5,8 +5,10 @@
     <classes>
       <class name="Testcases.User_Role_testcase">
         <methods>
-          <include name="checkuserRole"/>
+          <include name="Browser_setup"/>
+          <include name="teardown_BM"/>
           <include name="teardown"/>
+          <include name="checkuserRole"/>
           <include name="lauchBrowser"/>
         </methods>
       </class> <!-- Testcases.User_Role_testcase -->

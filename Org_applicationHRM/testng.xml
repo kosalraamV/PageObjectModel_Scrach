@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HRM Test Suite" parallel="methods" thread-count="2">
+
+<listeners>
+		<listener class-name="ExtentReport.ListenersImplementation"/>
+	</listeners>
+	
+  <test thread-count="5" name="Pending leave Request Test Case">
+    <classes>
+      <class name="Testcases.Pending_leave_request_testcases"/>
+    </classes>
+  </test> <!-- Pending leave Request Test Case -->
+  
+   <test thread-count="5" name="Verifying User Role testcase">
+    <classes>
+      <class name="Testcases.User_Role_testcase"/>
+    </classes>
+  </test> <!-- Pending leave Request Test Case -->
+  
+</suite> <!-- HRM Test Suite -->
+
