@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Org_applicationHRM_Suite]">
+  <listeners>
+    <listener class-name="ExtentReport.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Verifying Pending leave request testcase(failed)">
+    <classes>
+      <class name="Testcases.Pending_leave_request_testcases">
+        <methods>
+          <include name="verifypendingleaverequest"/>
+          <include name="teardown"/>
+          <include name="lauchBrowser"/>
+        </methods>
+      </class> <!-- Testcases.Pending_leave_request_testcases -->
+      <class name="Testcases.User_Role_testcase">
+        <methods>
+          <include name="checkuserRole"/>
+          <include name="teardown"/>
+          <include name="lauchBrowser"/>
+        </methods>
+      </class> <!-- Testcases.User_Role_testcase -->
+    </classes>
+  </test> <!-- Verifying Pending leave request testcase(failed) -->
+</suite> <!-- Failed suite [Org_applicationHRM_Suite] -->

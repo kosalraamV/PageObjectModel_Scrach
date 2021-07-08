@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Test Suite" duration-ms="48506" started-at="2021-07-08T09:29:44 IST" finished-at="2021-07-08T09:30:33 IST">
+    <groups>
+    </groups>
+    <test name=" Pending leave Request Test Case" duration-ms="23526" started-at="2021-07-08T09:29:44 IST" finished-at="2021-07-08T09:30:08 IST">
+      <class name="Testcases.Pending_leave_request_testcases">
+        <test-method status="PASS" signature="Browser_setup()[pri:0, instance:Testcases.Pending_leave_request_testcases@275710fc]" name="Browser_setup" is-config="true" duration-ms="20272" started-at="2021-07-08T09:29:44 IST" finished-at="2021-07-08T09:30:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_setup -->
+        <test-method status="PASS" signature="verifypendingleaverequest()[pri:0, instance:Testcases.Pending_leave_request_testcases@275710fc]" name="verifypendingleaverequest" duration-ms="78" started-at="2021-07-08T09:30:04 IST" finished-at="2021-07-08T09:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypendingleaverequest -->
+        <test-method status="PASS" signature="teardown_BM()[pri:0, instance:Testcases.Pending_leave_request_testcases@275710fc]" name="teardown_BM" is-config="true" duration-ms="2553" started-at="2021-07-08T09:30:05 IST" finished-at="2021-07-08T09:30:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_BM -->
+      </class> <!-- Testcases.Pending_leave_request_testcases -->
+    </test> <!--  Pending leave Request Test Case -->
+    <test name="Verifying User Role testcase" duration-ms="22542" started-at="2021-07-08T09:30:10 IST" finished-at="2021-07-08T09:30:33 IST">
+      <class name="Testcases.User_Role_testcase">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:Testcases.User_Role_testcase@14a2f921]" name="lauchBrowser" is-config="true" duration-ms="156" started-at="2021-07-08T09:29:44 IST" finished-at="2021-07-08T09:29:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method status="PASS" signature="Browser_setup()[pri:0, instance:Testcases.User_Role_testcase@14a2f921]" name="Browser_setup" is-config="true" duration-ms="17831" started-at="2021-07-08T09:30:10 IST" finished-at="2021-07-08T09:30:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_setup -->
+        <test-method status="PASS" signature="checkuserRole()[pri:0, instance:Testcases.User_Role_testcase@14a2f921]" name="checkuserRole" duration-ms="3721" started-at="2021-07-08T09:30:28 IST" finished-at="2021-07-08T09:30:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserRole -->
+        <test-method status="PASS" signature="teardown_BM()[pri:0, instance:Testcases.User_Role_testcase@14a2f921]" name="teardown_BM" is-config="true" duration-ms="817" started-at="2021-07-08T09:30:32 IST" finished-at="2021-07-08T09:30:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown_BM -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Testcases.User_Role_testcase@14a2f921]" name="teardown" is-config="true" duration-ms="0" started-at="2021-07-08T09:30:33 IST" finished-at="2021-07-08T09:30:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.User_Role_testcase -->
+    </test> <!-- Verifying User Role testcase -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>

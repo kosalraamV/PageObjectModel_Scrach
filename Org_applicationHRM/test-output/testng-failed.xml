@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [HRM Test Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="ExtentReport.ListenersImplementation"/>
+  </listeners>
+  <test thread-count="2" name="Verifying User Role testcase(failed)" parallel="methods">
+    <classes>
+      <class name="Testcases.User_Role_testcase">
+        <methods>
+          <include name="Browser_setup"/>
+          <include name="teardown_BM"/>
+          <include name="teardown"/>
+          <include name="checkuserRole_MoveToUserRole"/>
+          <include name="checkuserRole"/>
+          <include name="lauchBrowser"/>
+        </methods>
+      </class> <!-- Testcases.User_Role_testcase -->
+    </classes>
+  </test> <!-- Verifying User Role testcase(failed) -->
+</suite> <!-- Failed suite [HRM Test Suite] -->
